@@ -5,6 +5,7 @@
 
 #include <stdio.h>
 
+#define BLK   "\x1B[30m"
 #define RED   "\x1B[31m"
 #define GRN   "\x1B[32m"
 #define YEL   "\x1B[33m"

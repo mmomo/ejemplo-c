@@ -15,7 +15,7 @@ void rectaH(int x, int y, int l, char *color)
 {
   gotoxy(x, y);
   for (int i = 0; i < l; i++) {
-    printf("%s%c",color, 219);
+    printf("%s%s",color, "\u2588");
   }
 }
 
@@ -24,7 +24,7 @@ void rectaV(int x, int y, int l, char *color)
   gotoxy(x, y);
   for (int i = y; i < l + y; i++) {
     gotoxy(x, i);
-    printf("%s%c",color, 219);
+    printf("%s%s",color, "\u2588");
   }
 }
 

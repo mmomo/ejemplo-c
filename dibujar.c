@@ -20,8 +20,9 @@ int main(void)
 
   triangulo(35, 11, 5, BLU);
 
-  diagonal2(50, 11, 5, WHT);
+  diagonal2(50, 11, 5, CYN);
   diagonal1(42, 11, 5, CYN);
+  rectaH(42, 11, 9, CYN);
 
   gotoxy(0, 18);
 
